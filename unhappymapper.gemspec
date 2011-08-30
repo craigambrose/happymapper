@@ -30,11 +30,11 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<nokogiri>, ["~> 1.4.2"])
       s.add_development_dependency(%q<rspec>, ["~> 1.3.0"])
     else
-      s.add_dependency(%q<nokogiri>, ["~> 1.4.2"])
+      s.add_dependency(%q<nokogiri>, [">= 1.4.2"])
       s.add_dependency(%q<rspec>, ["~> 1.3.0"])
     end
   else
-    s.add_dependency(%q<nokogiri>, ["~> 1.4.2"])
+    s.add_dependency(%q<nokogiri>, [">= 1.4.2"])
     s.add_dependency(%q<rspec>, ["~> 1.3.0"])
   end
 end
