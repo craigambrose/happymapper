@@ -522,7 +522,7 @@ module HappyMapper
           # by default this is simply utilizing the attr_accessor defined. However,
           # this allows for this method to be overridden
           #
-          value = send(element.name)
+          value = send(element.method_name)
 
           #
           # If the element defines an on_save lambda/proc then we will call that
